@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I4OyxkdICKrlOPqwCFGstc9/QdzG189Q6z+AAbDN8oA=",
+  "Source": "LookupControllerAPI.API",
+  "BasePath": "_content/LookupControllerAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

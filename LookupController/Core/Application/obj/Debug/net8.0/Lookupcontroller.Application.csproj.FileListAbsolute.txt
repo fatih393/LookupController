@@ -1,0 +1,15 @@
+C:\Users\Fatih\source\repos\LookupController\Core\Application\bin\Debug\net8.0\Lookupcontroller.Application.deps.json
+C:\Users\Fatih\source\repos\LookupController\Core\Application\bin\Debug\net8.0\Lookupcontroller.Application.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Application\bin\Debug\net8.0\Lookupcontroller.Application.pdb
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\refint\Lookupcontroller.Application.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.pdb
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\ref\Lookupcontroller.Application.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Application\bin\Debug\net8.0\Lookupcontroller.Domain.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Application\bin\Debug\net8.0\Lookupcontroller.Domain.pdb
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupcontroller.Application.csproj.AssemblyReference.cache
+C:\Users\Fatih\source\repos\LookupController\Core\Application\obj\Debug\net8.0\Lookupco.EDEEA165.Up2Date

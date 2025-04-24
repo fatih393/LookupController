@@ -1,0 +1,11 @@
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\bin\Debug\net8.0\Lookupcontroller.Domain.deps.json
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\bin\Debug\net8.0\Lookupcontroller.Domain.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\bin\Debug\net8.0\Lookupcontroller.Domain.pdb
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\refint\Lookupcontroller.Domain.dll
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\Lookupcontroller.Domain.pdb
+C:\Users\Fatih\source\repos\LookupController\Core\Domain\obj\Debug\net8.0\ref\Lookupcontroller.Domain.dll
