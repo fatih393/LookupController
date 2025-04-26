@@ -20,12 +20,12 @@ namespace Lookupcontroller.Application.Services.EntityServices.Common
         Task<IApiResponse<List<TResponseDto>>> GetListAsync(Expression<Func<TEntity, bool>>? filter = null);
 
         // POST - Yeni kayıt ekleme
-        Task<IApiResponse<TResponseDto>> AddAsync(TRequestDto record, Guid userId);
+        Task<IApiResponse<TResponseDto>> AddAsync(TRequestDto record);
 
         // PUT - Kayıt güncelleme
-        Task<IApiResponse<bool>> UpdateAsync(Guid id, TRequestDto record);
+        Task<IApiResponse<bool>> UpdateAsync(int id, TRequestDto record);
 
         // DELETE - Kayıt silme
-        Task<IApiResponse<bool>> DeleteAsync(Guid id);
+        Task<IApiResponse<bool>> DeleteAsync(int id);
     }
 }

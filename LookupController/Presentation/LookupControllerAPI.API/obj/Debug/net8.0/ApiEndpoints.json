@@ -1,5 +1,110 @@
 [
   {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Lookup/Order/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "record",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Lookup/Order/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Lookup/Order/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Lookup/Order/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "record",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Product, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IProductService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Create",
+    "RelativePath": "api/Lookup/Product/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "record",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.ProductController",
+    "Method": "AddProducts",
+    "RelativePath": "api/Lookup/Product/create-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Product, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IProductService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "api/Lookup/Product/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LookupControllerAPI.API.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Lookup/Product/getall-product",
@@ -7,6 +112,64 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Product, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IProductService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetById",
+    "RelativePath": "api/Lookup/Product/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Lookup/Product/update-product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productRequest",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Product, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IProductService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Update",
+    "RelativePath": "api/Lookup/Product/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "record",
+        "Type": "Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

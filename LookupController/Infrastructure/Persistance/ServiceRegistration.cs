@@ -17,7 +17,10 @@ namespace Lookupcontroller.Persistance
             services.AddDbContext<LookupcontrollerContext>(options => options.UseNpgsql(Configuration.ConnectionString));
             services.AddScoped<IProductReadRepository, ProductReadRepository>();
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+            services.AddScoped<IOrderReadRepository, OrderReadRepository>();
+            services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IOrderService, OrderService>();
         }
         }
 }

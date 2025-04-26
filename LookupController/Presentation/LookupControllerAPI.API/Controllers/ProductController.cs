@@ -11,7 +11,7 @@ namespace LookupControllerAPI.API.Controllers
 {
     [Route("api/Lookup/[controller]")]
     [ApiController]
-    public class ProductController : LookupControllerBase<Product, IProductService, ProductRequestDto, ProductResponseDto>
+    public class ProductController : LookupControllerBase<Product, IProductService, ProductResponseDto, ProductRequestDto>
     {
         private readonly ClaimExtension _claimExtension;
 
@@ -29,6 +29,29 @@ namespace LookupControllerAPI.API.Controllers
                 return Ok(response.Data);
             }
             return NotFound(response.Message);
+        }
+        [HttpPost("create-product")]
+        public async Task<IActionResult> AddProducts([FromBody] ProductRequestDto request)
+        {
+            var response = await _lookupService.AddAsync(request);
+            if (response.Success)
+            {
+                return Ok(response.Data);
+            }
+            return NotFound(response.Message);
+        }
+        [HttpPut("update-product/{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductRequestDto productRequest)
+        {
+           
+            var response = await _lookupService.UpdateAsync(id, productRequest);
+
+            if (response.Success)
+            {
+                return Ok(response.Data); 
+            }
+
+            return BadRequest(response.Message); 
         }
     }
 }

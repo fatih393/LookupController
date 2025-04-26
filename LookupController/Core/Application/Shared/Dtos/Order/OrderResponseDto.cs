@@ -9,5 +9,6 @@ namespace Lookupcontroller.Application.Shared.Dtos.Order
 {
     public class OrderResponseDto: BaseResponseDto
     {
+        public DateTime CreateOrderDate { get; set; }
     }
 }

@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace Lookupcontroller.Application.Shared.Dtos.Product.Query
 {
-    public class ProductRequestDto: BaseResponseDto
+    public class ProductRequestDto
     {
+        public string Name { get; set; }
+        public int Stock { get; set; }
     }
 }

@@ -16,8 +16,10 @@ namespace Lookupcontroller.Application.Mapper
         {
 
             CreateMap<Product, ProductResponseDto>();
-
+            CreateMap<ProductRequestDto, Product>();
+            
             CreateMap<Order, OrderResponseDto>();
+            CreateMap<OrderRequestDto, Order>();
         }
 
     }
