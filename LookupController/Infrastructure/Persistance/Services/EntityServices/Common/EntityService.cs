@@ -57,6 +57,7 @@ namespace Lookupcontroller.Persistance.Services.EntityServices.Common
                 return ApiResponse<bool>.CreateNotFound("Varlık bulunamadı.");
 
             var result = _writeRepository.Remove(entity);
+          
             if (!result)
                 return ApiResponse<bool>.CreateBadRequest(false, "Silme başarısız.");
 

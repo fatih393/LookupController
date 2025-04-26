@@ -27,17 +27,31 @@ namespace Lookupcontroller.Persistance.Repositories
             EntityEntry<T> entityEntry = await Table.AddAsync(model);
             return entityEntry.State == EntityState.Added;
         }
-        public bool Remove(T model)
-        {
-            EntityEntry<T> entityEntry = Table.Remove(model);
-            return entityEntry.State != EntityState.Deleted;
-        }
+      public bool Remove(T model)
+{
+    if (model == null) 
+    {
+        return false;  
+    }
 
-        public async Task<bool> RemoveAsync(int id)
-        {
-            T model = await Table.FirstOrDefaultAsync(data => data.Id == id);
-            return Remove(model);
-        }
+    EntityEntry<T> entityEntry = Table.Remove(model);
+    
+    return entityEntry.State == EntityState.Deleted;
+}
+
+public async Task<bool> RemoveAsync(int id)
+{
+  
+    T model = await Table.FirstOrDefaultAsync(data => data.Id == id);
+  
+    if (model == null)
+    {
+        return false;
+    }
+
+    
+    return Remove(model);
+}
 
         public async Task<int> Saveasync()
         => await _context.SaveChangesAsync();

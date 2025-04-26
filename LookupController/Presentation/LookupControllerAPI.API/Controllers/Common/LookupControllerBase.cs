@@ -45,5 +45,11 @@ namespace LookupControllerAPI.API.Controllers.Common
             var response = await _lookupService.UpdateAsync(id, record);
             return response.Success ? Ok(response.Data) : BadRequest(response.Message);
         }
+        [HttpDelete("delete/{id}")]
+        public virtual async Task<IActionResult> Remove([FromRoute] int id)
+        {
+            var response = await _lookupService.DeleteAsync(id);
+            return response.Success ? Ok(response) : BadRequest(response.Message);
+        }
     }
 }

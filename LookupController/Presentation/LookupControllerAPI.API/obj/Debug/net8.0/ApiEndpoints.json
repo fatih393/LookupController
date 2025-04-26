@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Remove",
+    "RelativePath": "api/Lookup/Order/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Order, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IOrderService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Order.OrderRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "api/Lookup/Order/getall",
     "HttpMethod": "GET",
@@ -89,6 +105,22 @@
       {
         "Name": "request",
         "Type": "Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.Common.LookupControllerBase\u00604[[Lookupcontroller.Domain.Entities.Product, Lookupcontroller.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Services.EntityServices.IProductService, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductResponseDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Lookupcontroller.Application.Shared.Dtos.Product.Query.ProductRequestDto, Lookupcontroller.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Remove",
+    "RelativePath": "api/Lookup/Product/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
