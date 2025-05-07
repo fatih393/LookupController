@@ -58,6 +58,18 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -265,6 +277,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Lookupcontroller.Application.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Lookupcontroller.Application.csproj"
+              },
               "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj": {
                 "projectPath": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj"
               }

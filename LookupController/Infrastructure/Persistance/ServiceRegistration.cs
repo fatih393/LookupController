@@ -1,7 +1,9 @@
 ﻿using Lookupcontroller.Application.Repostories;
+using Lookupcontroller.Application.Services.BusinessRules;
 using Lookupcontroller.Application.Services.EntityServices;
 using Lookupcontroller.Persistance.Context;
 using Lookupcontroller.Persistance.Repositories;
+using Lookupcontroller.Persistance.Services.BusinessRules;
 using Lookupcontroller.Persistance.Services.EntityServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +23,7 @@ namespace Lookupcontroller.Persistance
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IProductBusinessRules, ProductBusinessRules>();
         }
         }
 }

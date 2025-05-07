@@ -146,3 +146,6 @@ C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.AP
 C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\Lookupcontroller.Application.dll
 C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\Lookupcontroller.Application.pdb
+C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Fatih\source\repos\LookupController\Presentation\LookupControllerAPI.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

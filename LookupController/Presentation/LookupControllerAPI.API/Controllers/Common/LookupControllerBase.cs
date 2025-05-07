@@ -29,6 +29,10 @@ namespace LookupControllerAPI.API.Controllers.Common
         [HttpPost("create")]
         public virtual async Task<IActionResult> Create([FromBody] TRequestDto record)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             var response = await _lookupService.AddAsync(record);
             return response.Success ? Ok(response) : BadRequest(response);
         }

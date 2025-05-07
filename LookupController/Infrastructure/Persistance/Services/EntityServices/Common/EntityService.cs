@@ -2,10 +2,12 @@
 using Lookupcontroller.Application.Repostories;
 using Lookupcontroller.Application.Services.EntityServices.Common;
 using Lookupcontroller.Application.Shared.Dtos.Commons;
+using Lookupcontroller.Application.Shared.Dtos.Product.Query;
 using Lookupcontroller.Application.Shared.ResponseModel;
 using Lookupcontroller.Domain.Entities.Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,10 +30,11 @@ namespace Lookupcontroller.Persistance.Services.EntityServices.Common
             _writeRepository = writeRepository;
         }
 
-        public async Task<IApiResponse<TResponseDto>> AddAsync(TRequestDto record)
+        public virtual async Task<IApiResponse<TResponseDto>> AddAsync(TRequestDto record)
         {
             try
             {
+               
                 var entity = ObjectMapper.Mapper.Map<TEntity>(record);
                 var result = await _writeRepository.AddAsync(entity);
 
@@ -102,11 +105,23 @@ namespace Lookupcontroller.Persistance.Services.EntityServices.Common
 
             ObjectMapper.Mapper.Map(record, entity);
 
-            var result = await _writeRepository.Saveasync(); // Save yapıyoruz, update metodun yok demiştin zaten
+            var result = await _writeRepository.Saveasync(); 
 
             return result > 0
              ? ApiResponse<bool>.CreateOk(true)
              : ApiResponse<bool>.CreateBadRequest(false);
+
+        }
+
+        public async Task<IApiResponse<List<TResponseDto>>> Pagination(ProductPaginationRequestDto dto)
+        {
+            var totalCount = _readRepository.GetAll(false).Count();
+            var entities = _readRepository.GetAll(false).Skip(dto.Page * dto.Size).Take(dto.Size).ToList();
+            if (entities == null || entities.Count == 0)
+                return ApiResponse<List<TResponseDto>>.CreateNotFound("Entity not found");
+
+            var mappedEntities = ObjectMapper.Mapper.Map<List<TResponseDto>>(entities);
+            return ApiResponse<List<TResponseDto>>.Create(mappedEntities);
 
         }
     }

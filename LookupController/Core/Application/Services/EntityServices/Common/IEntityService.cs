@@ -1,4 +1,5 @@
-﻿using Lookupcontroller.Application.Shared.ResponseModel;
+﻿using Lookupcontroller.Application.Shared.Dtos.Product.Query;
+using Lookupcontroller.Application.Shared.ResponseModel;
 using Lookupcontroller.Domain.Entities.Common;
 using System;
 using System.Collections.Generic;
@@ -27,5 +28,6 @@ namespace Lookupcontroller.Application.Services.EntityServices.Common
 
         // DELETE - Kayıt silme
         Task<IApiResponse<bool>> DeleteAsync(int id);
+        Task<IApiResponse<List<TResponseDto>>> Pagination(ProductPaginationRequestDto dto);
     }
 }

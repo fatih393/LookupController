@@ -164,6 +164,27 @@
   },
   {
     "ContainingType": "LookupControllerAPI.API.Controllers.ProductController",
+    "Method": "GetPaginationProduct",
+    "RelativePath": "api/Lookup/Product/getpagination-product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LookupControllerAPI.API.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/Lookup/Product/update-product/{id}",
     "HttpMethod": "PUT",
