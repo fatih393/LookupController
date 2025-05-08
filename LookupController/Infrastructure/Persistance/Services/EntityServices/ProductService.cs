@@ -20,24 +20,12 @@ namespace Lookupcontroller.Persistance.Services.EntityServices
 {
     public class ProductService : EntityService<Product, ProductRequestDto, ProductResponseDto>, IProductService
     {
-        private readonly IProductBusinessRules _businessRules;
-
-        public ProductService(IProductReadRepository readRepository,
-                              IProductWriteRepository writeRepository,
-                              IProductBusinessRules businessRules)
-            : base(readRepository, writeRepository)
+        public ProductService(
+            IProductReadRepository readRepository,
+            IProductWriteRepository writeRepository,
+            IBusinessRulesService<Product> businessRules)
+            : base(readRepository, writeRepository, businessRules)
         {
-            _businessRules = businessRules;
         }
-        public override async Task<IApiResponse<ProductResponseDto>> AddAsync(ProductRequestDto request)
-        {
-           
-            await _businessRules.Validate(request);
-
-           
-            return await base.AddAsync(request);
-        }
-
-
     }
 }

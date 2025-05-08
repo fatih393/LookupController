@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Fatih\\source\\repos\\LookupController\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\businessrules\\productbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\businessrules\\productbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\businessrules\\businessrulesservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\businessrules\\businessrulesservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\businessrules\\productbusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\businessrules\\productbusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\businessrules\\orderbusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\businessrules\\orderbusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\core\\application\\services\\businessrules\\ibusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|solutionrelative:core\\application\\services\\businessrules\\ibusinessrulesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\entityservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\entityservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\entityservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\entityservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\entityservices\\common\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\entityservices\\common\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3465543B-6C83-4E00-8D5C-7A5D3DACCEBC}|Presentation\\LookupControllerAPI.API\\LookupControllerAPI.API.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\presentation\\lookupcontrollerapi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +51,8 @@
       "RelativeMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|solutionrelative:core\\application\\services\\entityservices\\common\\ientityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\entityservices\\common\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\entityservices\\common\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\services\\entityservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\services\\entityservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\core\\application\\shared\\dtos\\product\\query\\productpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|solutionrelative:core\\application\\shared\\dtos\\product\\query\\productpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\infrastructure\\persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F28D05-B4A8-4022-A5F7-C1EFEA96D7C9}|Infrastructure\\Persistance\\Lookupcontroller.Persistance.csproj|solutionrelative:infrastructure\\persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\core\\application\\services\\businessrules\\iproductbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD897910-DF93-4E2F-8200-6E74A79A98CD}|Core\\Application\\Lookupcontroller.Application.csproj|solutionrelative:core\\application\\services\\businessrules\\iproductbusinessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3465543B-6C83-4E00-8D5C-7A5D3DACCEBC}|Presentation\\LookupControllerAPI.API\\LookupControllerAPI.API.csproj|c:\\users\\fatih\\source\\repos\\lookupcontroller\\presentation\\lookupcontrollerapi.api\\controllers\\common\\lookupcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "OrderBusinessRulesService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\OrderBusinessRulesService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\BusinessRules\\OrderBusinessRulesService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\OrderBusinessRulesService.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Services\\BusinessRules\\OrderBusinessRulesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:09:40.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\OrderService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\EntityServices\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\OrderService.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Services\\EntityServices\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:08:22.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductBusinessRulesService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRulesService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRulesService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRulesService.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRulesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:06:07.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IEntityService.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Services\\EntityServices\\Common\\IEntityService.cs",
               "RelativeDocumentMoniker": "Core\\Application\\Services\\EntityServices\\Common\\IEntityService.cs",
@@ -70,12 +121,11 @@
               "RelativeToolTip": "Core\\Application\\Services\\EntityServices\\Common\\IEntityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:05:08.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T10:05:08.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ProductPaginationRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Shared\\Dtos\\Product\\Query\\ProductPaginationRequestDto.cs",
               "RelativeDocumentMoniker": "Core\\Application\\Shared\\Dtos\\Product\\Query\\ProductPaginationRequestDto.cs",
@@ -83,31 +133,30 @@
               "RelativeToolTip": "Core\\Application\\Shared\\Dtos\\Product\\Query\\ProductPaginationRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:56:14.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:56:14.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\ProductService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\EntityServices\\ProductService.cs",
               "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\ProductService.cs",
               "RelativeToolTip": "Infrastructure\\Persistance\\Services\\EntityServices\\ProductService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:12:11.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\ServiceRegistration.cs",
               "RelativeToolTip": "Infrastructure\\Persistance\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:11:15.745Z",
               "EditorCaption": ""
@@ -115,32 +164,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductBusinessRules.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRules.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRules.cs",
-              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRules.cs",
-              "RelativeToolTip": "Infrastructure\\Persistance\\Services\\BusinessRules\\ProductBusinessRules.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Title": "BusinessRulesServiceBase.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\BusinessRulesServiceBase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\BusinessRules\\BusinessRulesServiceBase.cs",
+              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\BusinessRules\\BusinessRulesServiceBase.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Services\\BusinessRules\\BusinessRulesServiceBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:09:29.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProductBusinessRules.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Services\\BusinessRules\\IProductBusinessRules.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Services\\BusinessRules\\IProductBusinessRules.cs",
-              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Services\\BusinessRules\\IProductBusinessRules.cs",
-              "RelativeToolTip": "Core\\Application\\Services\\BusinessRules\\IProductBusinessRules.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IBusinessRulesService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Services\\BusinessRules\\IBusinessRulesService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Services\\BusinessRules\\IBusinessRulesService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Services\\BusinessRules\\IBusinessRulesService.cs",
+              "RelativeToolTip": "Core\\Application\\Services\\BusinessRules\\IBusinessRulesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:08:37.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LookupControllerBase.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Presentation\\LookupControllerAPI.API\\Controllers\\Common\\LookupControllerBase.cs",
               "RelativeDocumentMoniker": "Presentation\\LookupControllerAPI.API\\Controllers\\Common\\LookupControllerBase.cs",
@@ -148,12 +197,11 @@
               "RelativeToolTip": "Presentation\\LookupControllerAPI.API\\Controllers\\Common\\LookupControllerBase.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:01:34.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:01:34.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CreateOrderValidator.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Validators\\Order\\CreateOrderValidator.cs",
               "RelativeDocumentMoniker": "Core\\Application\\Validators\\Order\\CreateOrderValidator.cs",
@@ -161,12 +209,11 @@
               "RelativeToolTip": "Core\\Application\\Validators\\Order\\CreateOrderValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T08:58:16.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:58:16.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Presentation\\LookupControllerAPI.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Presentation\\LookupControllerAPI.API\\Controllers\\ProductController.cs",
@@ -174,25 +221,24 @@
               "RelativeToolTip": "Presentation\\LookupControllerAPI.API\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAtwCkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T08:43:17.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:43:17.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EntityService.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\Common\\EntityService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Services\\EntityServices\\Common\\EntityService.cs",
               "ToolTip": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Infrastructure\\Persistance\\Services\\EntityServices\\Common\\EntityService.cs",
               "RelativeToolTip": "Infrastructure\\Persistance\\Services\\EntityServices\\Common\\EntityService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:37:25.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Presentation\\LookupControllerAPI.API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\LookupControllerAPI.API\\Program.cs",
@@ -200,12 +246,11 @@
               "RelativeToolTip": "Presentation\\LookupControllerAPI.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T08:29:22.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:29:22.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CreateProductValidator.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\source\\repos\\LookupController\\Core\\Application\\Validators\\Product\\CreateProductValidator.cs",
               "RelativeDocumentMoniker": "Core\\Application\\Validators\\Product\\CreateProductValidator.cs",
@@ -213,8 +258,7 @@
               "RelativeToolTip": "Core\\Application\\Validators\\Product\\CreateProductValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T08:19:32.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T08:19:32.872Z"
             }
           ]
         }

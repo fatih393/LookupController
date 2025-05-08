@@ -1,5 +1,6 @@
 ﻿using Lookupcontroller.Application.Mapper;
 using Lookupcontroller.Application.Repostories;
+using Lookupcontroller.Application.Services.BusinessRules;
 using Lookupcontroller.Application.Services.EntityServices.Common;
 using Lookupcontroller.Application.Shared.Dtos.Commons;
 using Lookupcontroller.Application.Shared.Dtos.Product.Query;
@@ -23,11 +24,12 @@ namespace Lookupcontroller.Persistance.Services.EntityServices.Common
     {
         private readonly IReadRepostory<TEntity> _readRepository;
         private readonly IWriteRepostory<TEntity> _writeRepository;
-     
-        public EntityService(IReadRepostory<TEntity> readRepository, IWriteRepostory<TEntity> writeRepository)
+        private readonly IBusinessRulesService<TEntity> _businessRules;
+        public EntityService(IReadRepostory<TEntity> readRepository, IWriteRepostory<TEntity> writeRepository, IBusinessRulesService<TEntity> businessRules)
         {
             _readRepository = readRepository;
             _writeRepository = writeRepository;
+            _businessRules = businessRules;
         }
 
         public virtual async Task<IApiResponse<TResponseDto>> AddAsync(TRequestDto record)
@@ -36,6 +38,7 @@ namespace Lookupcontroller.Persistance.Services.EntityServices.Common
             {
                
                 var entity = ObjectMapper.Mapper.Map<TEntity>(record);
+                await _businessRules.ValidateAsync(entity);
                 var result = await _writeRepository.AddAsync(entity);
 
                 if (!result)
