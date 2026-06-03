@@ -1,0 +1,3 @@
+Bu proje, veri alma ve gönderme süreçlerinde farklı bir yaklaşım geliştirmek ve DTO kullanımını daha iyi anlamak amacıyla oluşturulmuştur. CQRS yapısının dışına çıkılarak, okuma ve yazma operasyonlarında doğrudan DTO kullanımı tercih edilmiştir. Böylece veri transferi sırasında katmanlar arası dönüşüm ihtiyacı azaltılarak daha sade ve odaklı bir yapı hedeflenmiştir.
+
+Projenin temel amacı, veri akışını daha basit bir perspektifle ele almak ve DTO kullanımının sistem tasarımındaki etkilerini pratik olarak gözlemlemektir. Bu çalışma, özellikle veri transferi ve modelleme konularında farklı bir bakış açısı kazanmak için geliştirilmiştir.
